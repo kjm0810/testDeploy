@@ -1,0 +1,396 @@
+body nav {
+  
+}
+.page {
+  
+}
+.container {
+    max-width: 1440px;
+  }
+  
+  .clean-block.clean-hero .text {
+    position: absolute;
+    top: 200px;
+    left: 120px;
+    max-width: 500px;
+  }
+  
+  .text-left {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    max-width: 450px;
+    transform: translate(0%, -50%);
+  }
+  
+  .rectpic {
+    height: 28rem;
+    width: 100%;
+  }
+  
+  .img-inimg {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }
+  
+  .text-inimg {
+    position: absolute;
+    left: 20px;
+    top: 55px;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .text-inimg-bottom {
+    position: absolute;
+    left: 20px;
+    color: white;
+    font-size: 0.77rem;
+    bottom: 20px;
+    width: 90%;
+    text-align: left;
+  }
+  
+  .btn.btn-info.border.rounded-0.blue-default {
+    padding: 20px 60px;
+    margin: 30px 0;
+    font-size: 1rem;
+  }
+  
+  .text-onbgimg {
+    position: absolute;
+    color: white;
+    text-align: right;
+    top: 30px;
+    right: 40px;
+    font-size: 4rem;
+    font-weight: 800;
+  }
+  
+  @media (max-width: 400px) {
+    .text-onbgimg {
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media (min-width: 410px) and (max-width: 500px) {
+    .text-onbgimg {
+      font-size: 3rem;
+    }
+  }
+  
+  .text-onbgimg-con {
+    position: absolute;
+    right: 40px;
+    text-align: right;
+    color: white;
+    width: 550px;
+    top: 320px;
+  }
+  
+  @media (max-width: 500px) {
+    .text-onbgimg-con {
+      width: 260px;
+    }
+  }
+  
+  @media (min-width: 500px) and (max-width: 650px) {
+    .text-onbgimg-con {
+      width: 450px;
+    }
+  }
+  
+  .text-maintitle {
+    font-size: 1.7rem;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  @media (max-width: 768px) {
+    .text-maintitle {
+      font-size: 1.5rem;
+    }
+  }
+  
+  .text-lefttwo {
+    position: relative;
+    margin-left: 2rem;
+  }
+  
+  @media (max-width: 992px) {
+    .text-lefttwo {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+  
+  .careertext3 {
+    font-size: 1.1rem;
+  }
+  
+  @media (max-width: 540px) {
+    .careertext3 {
+      font-size: 0.9rem;
+    }
+  }
+  
+  .careertext2 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 540px) {
+    .careertext2 {
+      font-size: 1.4rem;
+      font-weight: 700;
+    }
+  }
+  
+  .careertext1 {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  
+  @media (max-width: 540px) {
+    .careertext1 {
+      font-size: 1rem;
+    }
+  }
+  
+  .footer-upicon {
+    position: absolute;
+    right: 100px;
+    top: -25px;
+    width: 50px;
+    height: 50px;
+    border: none!important;
+  }
+  
+  .text-center.business-text-01 {
+    font-size: 2rem;
+  }
+  
+  .business-txt {
+    width: 650px;
+    position: relative;
+    left: calc(50% - 650px/2);
+  }
+  
+  @media (max-width: 720px) {
+    .business-txt {
+      width: 100%;
+      padding: 0px 30px;
+      left: 0px;
+    }
+  }
+  
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    top: 61px;
+    left: -65px;
+    color: #005bb9;
+    background-color: #1792e5;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0;
+    font-size: 0.8rem;
+  }
+  
+  .dropdown-item {
+    color: #fff;
+  }
+  
+  .dropdown-item:focus, .dropdown-item:hover {
+    color: #fff;
+    background-color: #005bb9;
+  }
+  
+  .dropdown-divider {
+    border-top: 1px solid #5db3ed;
+  }
+  
+  .btn.btn-light.btn-lg.border.rounded-0 {
+    background-color: #2d89f5;
+    width: 12rem;
+    color: rgb(255,255,255);
+    font-size: 0.8rem;
+    border: none!important;
+    padding: 15px;
+    margin-top: 10px;
+  }
+  
+  .txtonimg {
+    padding: 6px 0px;
+    margin: 0;
+    color: white;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #383636c4;
+    border: none;
+    font-size: 13px;
+  }
+  
+  .d-flex.fu-lm {
+    margin-left: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .d-flex.fu-lm {
+      margin-left: 0px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #blockContainer {
+      display: -webkit-box;
+      display: -moz-box;
+      display: box;
+      -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
+      box-orient: vertical;
+    }
+  }
+  
+  @media (max-width: 995px) {
+    #blockA {
+      -webkit-box-ordinal-group: 2;
+      -moz-box-ordinal-group: 2;
+      box-ordinal-group: 2;
+    }
+  }
+  
+  @media (max-width: 995px) {
+    #blockB {
+      -webkit-box-ordinal-group: 3;
+      -moz-box-ordinal-group: 3;
+      box-ordinal-group: 3;
+    }
+  }
+  
+  .items-box {
+    margin-bottom: 0.3rem;
+    position: relative;
+    width: fit-content;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  
+  .banner-title {
+    margin: 0;
+    font-weight: bold;
+    color: rgb(255,255,255);
+  }
+  
+  @media (max-width: 576px) {
+    .banner-title {
+      margin: 0;
+      font-weight: bold;
+      color: rgb(255,255,255);
+      font-size: 26px;
+    }
+  }
+  
+  .banner-title-red {
+    font-weight: bold;
+    color: rgb(227,9,9);
+  }
+  
+  @media (max-width: 360px) {
+    .banner-title-red {
+      font-weight: bold;
+      color: rgb(227,9,9);
+      font-size: 36px;
+    }
+  }
+  
+  .img-title {
+    margin: 10px 0px;
+  }
+  
+  @media (min-width: 576px) {
+    .img-title {
+      width: 180px;
+    }
+  }
+  
+  #tothetop {
+    cursor: pointer;
+    background-color: #3b99e0;
+  }
+  
+  #divider {
+    background-color: #5c5c5c;
+    height: 1px;
+    width: 100%;
+  }
+  
+  #divider-big {
+    background-color: #a0a0a0;
+    height: 1px;
+    width: 100%;
+  }
+  
+  .pt-title {
+    padding: 10px 0px;
+    font-weight: 600;
+    font-size: 24px;
+    width: fit-content;
+    border-bottom: 4px solid #f15921;
+  }
+  
+  .pt-img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 400px) {
+    .pt-img {
+      width: 320px;
+    }
+  }
+  
+  .wpb_wrapper {
+    background-color: #f7f7f7;
+    padding: 5px;
+  }
+  
+  @media (max-width: 400px) {
+    .d-xl-flex.cp-txt {
+      font-size: 13px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .cr-img {
+      width: 320px;
+    }
+  }
+  
+  .cr-txt-onimg {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    font-size: 28px;
+    color: white;
+  }
+  
+  @media (max-width: 400px) {
+    .cr-contxt {
+      font-size: 1.5rem!important;
+    }
+  }
+  
+  .cr-contxt {
+    font-size: 1.8rem;
+    font-weight: 200;
+  }
+  
+  alinktext {
+    color: rgb(33,37,41);
+  }
+  
+  
